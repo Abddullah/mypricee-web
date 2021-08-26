@@ -1,0 +1,33 @@
+.caroselMainDiv {
+    background-color: yellow;
+    min-width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+    .caroselMainDiv {
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .caroselMainDiv {
+        width: 100%;
+    }
+}
+
+.scrolling-wrapper1 {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* background-color: yellow; */
+}
+
+.card1 {
+    display: inline-block;
+}

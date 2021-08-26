@@ -1,0 +1,24 @@
+.shadowAdd1 {
+    box-shadow: 1px 2px 20px #DEDEE1 !important;
+}
+
+.button {
+    background-color: #521C87;
+}
+
+.button:hover {
+    background-color: #691CB5;
+}
+
+.card {
+    display: inline-block;
+}
+
+.block-with-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90%;
+    /* font-size: 12; */
+    /* // don’t forget that .block-with-text can’t be an inline element */
+}

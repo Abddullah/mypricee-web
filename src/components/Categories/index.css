@@ -1,0 +1,12 @@
+.scrolling-wrapper2 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 50;
+    /* background-color: yellow; */
+}
+
+.card2 {
+    display: inline-block;
+}

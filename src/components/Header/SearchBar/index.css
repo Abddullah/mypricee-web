@@ -1,0 +1,13 @@
+.searchBar{
+    border-radius:5;
+    width:550
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .left-div,
+    .right_div {
+      min-width: 400px;
+    }
+  }

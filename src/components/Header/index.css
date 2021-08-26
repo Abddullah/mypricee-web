@@ -1,0 +1,53 @@
+.site-page-header {
+    justify-content: center;
+    background-color: #382365;
+    padding: 20;
+    display: flex;
+}
+
+.searchBar {
+    border-radius: 5;
+    width: 500
+}
+
+.buttonSignup {
+    border: 0.5px solid white !important;
+}
+
+.logoStyle {
+    margin-left: -10%;
+    cursor: pointer;
+}
+
+.languageFlag {
+    height: 10px;
+    margin-left: 10;
+    cursor: pointer;
+}
+
+.scrolling {
+    /* display: flex;
+    flex-direction: row; */
+    width: 250px;
+    height: 200;
+    overflow-x: scroll;
+    background-color: lightblue;
+    /* overflow-x: scroll; */
+    /* overflow-y: auto;
+    background-color: red;
+    width: 100%; */
+    /* overflow-x: scroll; */
+    /* overflow: scroll; */
+}
+
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+.ant-list-item {
+    border-bottom: none;
+}
+
+.backgroudImg {
+    background-size: cover;
+    background-image: url(../../assets/4047915.png);
+}
